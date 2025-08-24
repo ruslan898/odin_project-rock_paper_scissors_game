@@ -1,4 +1,6 @@
 const CHOICE_OPTIONS = ['rock', 'paper', 'scissors'];
+let humanScore = 0;
+let computerScore = 0;
 
 function getComputerChoice(choicesArr) {
   const randomIndex = Math.floor(Math.random() * choicesArr.length + 1);
@@ -6,6 +8,6 @@ function getComputerChoice(choicesArr) {
 }
 
 function getHumanChoice() {
-  const humanChoice = prompt('Rock, Paper or Scissors?')
+  const humanChoice = prompt('Rock, Paper or Scissors?');
   return humanChoice;
 }
