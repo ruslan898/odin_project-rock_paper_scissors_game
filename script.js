@@ -3,7 +3,7 @@ let humanScore = 0;
 let computerScore = 0;
 
 function getComputerChoice(choicesArr) {
-  const randomIndex = Math.floor(Math.random() * choicesArr.length + 1);
+  const randomIndex = Math.floor(Math.random() * choicesArr.length);
   return choicesArr[randomIndex];
 }
 
