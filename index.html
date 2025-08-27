@@ -11,12 +11,12 @@
     <h1>Rock, Paper, Scissors Game</h1>
     <h2>Please select one of the options:</h2>
     <div class="btn-wrapper">
-      <button class="btn red">Rock</button>
-      <button class="btn green">Paper</button>
-      <button class="btn blue">Scissors</button>
+      <button class="btn red" id="rock">Rock</button>
+      <button class="btn green" id="paper">Paper</button>
+      <button class="btn blue" id="scissors">Scissors</button>
     </div>
-    <div class="result-display-box">You won! Rock beats scissors</div>
-    <div class="score-display-box">
+    <div class="result-display-box"></div>
+    <div class="score-display-box hide">
       <div class="player-score">
         Your Score:
         <span>0</span>
@@ -26,6 +26,7 @@
         <span>0</span>
       </div>
     </div>
+    <button class="btn retry">Play again</button>
   </div>
 
   <script src="script.js"></script>
