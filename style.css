@@ -54,14 +54,23 @@ h2 {
 .result-display-box {
   font-size: 20px;
   margin-bottom: 40px;
+  height: 30px;
 }
 .score-display-box {
   display: flex;
   justify-content: center;
   gap: 80px;
 }
+.hide {
+  display: none;
+}
 .player-score span, .computer-score span {
   display: block;
   text-align: center;
   margin-top: 10px;
+}
+.retry {
+  display: block;
+  margin: 40px auto;
+  background-color: blueviolet;
 }
